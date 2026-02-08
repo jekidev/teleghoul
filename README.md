@@ -1,104 +1,103 @@
-# Я - Гуль (бот), теперь работает в чатах
+# Jeg er Ghoul (bot), arbejder nu i chats
 
-![Работа бота](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)
+![Bot i aktion](https://github.com/error1001es/teleghoul/blob/main/screenshots/bot_work.png)
 
-**Отблагодарить автора за проделанную работу можно [здесь](#пожертвовать)**<br>
-**Помощь с установкой [тут](#помощь)**
-
-___
-## Установка на Андроид
-**После установки перейдите в раздел [*Запуск*](#Запуск)**<br>
-
-Скачиваем приложение [Termux](https://play.google.com/store/apps/details?id=com.termux) в Play Market<br>
-Открываем и пишем команды снизу поочерёдно<br>
-
-***Для копирования команды нажмите справа от неё***
-
-*Обновляем*
-
-	apt-get update
-*Ставим git и python*
-
-	apt-get install git python
-Если спросит `Do you want to continue? [Y/n]` отвечаем `Y` и продолжаем<br>
-*Устанавливаем pyrogram*
-
-	pip install pyrogram
-*Клонируем репозиторий*
-
-	git clone https://github.com/error1001es/teleghoul.git
-**После установки перейдите в раздел [*Запуск*](#Запуск)**<br>
+**Du kan takke forfatteren for deres arbejde [her](#donér)**<br>
+**Hjælp med installation [her](#hjælp)**
 
 ___
-## Установка на Пк
-**После установки перейдите в раздел [*Запуск*](#Запуск)**<br>
+## Installation på Android
+**Efter installationen skal du gå til afsnittet [*Start*](#Start)**<br>
 
-Скачиваем [git](https://git-scm.com/downloads) и [python](https://www.python.org/downloads/)<br>
-**При установке Python обязательно ставим галочку `Add to PATH`**<br>
+Download appen [Termux](https://play.google.com/store/apps/details?id=com.termux) fra Play Market<br>
+Åbn og skriv kommandoerne nedenfor en efter en<br>
 
-*Устанавливаем pyrogram*
+***For at kopiere en kommando skal du klikke til højre for den***
 
-	pip install pyrogram
-*Клонируем репозиторий*
+*Opdater*
 
-	git clone https://github.com/error1001es/teleghoul.git
+apt-get update
+*Installer git og python*
+
+apt-get install git python
+Hvis du bliver spurgt: "Vil du fortsætte?" [J/n], svar "J" og fortsæt.<br>
+*Installer pyrogram*
+
+pip install pyrogram
+*Klon arkivet*
+
+git clone https://github.com/error1001es/teleghoul.git
+**Efter installationen skal du gå til afsnittet [*Kør*](#Kør)**.<br>
+
 ___
-## Запуск
-Перед каждым запуском [обновляйте](#обновление) бота<br>
-*Введите* и ждите пока бот запросит номер телефона, привязанный к **ВАШЕМУ** телеграму
+## Installation på pc
+**Efter installationen skal du gå til afsnittet [*Kør*](#Kør)**.<br>
 
-	python teleghoul/index.py
-	
-В **ТЕЛЕГРАМ** придёт код, введите его и бот заработает
+Download [git](https://git-scm.com/downloads) og [python](https://www.python.org/downloads/)<br>
+**Når du installerer Python, skal du sørge for at markere feltet "Tilføj til STI".**<br>
 
-![Запуск](https://github.com/error1001es/teleghoul/blob/main/screenshots/startup.png)<br>
+*Installer pyrogram*
 
-Если у вас стоит *двухфакторная аутентификация*, то бот запросит пароль<br>
+pip install pyrogram
+*Klon arkivet*
 
-**После запуска бот даст тебе знать, *последующие запуски выполняются без каких-либо установок***<br>
+git clone https://github.com/error1001es/teleghoul.git
+___
+## Start
+Før hver start skal du [opdatere](#update) bot<br>
+*Indtast* og vent på, at botten beder om telefonnummeret, der er knyttet til **DIN** Telegram
+
+python teleghoul/index.py
+
+En kode vil blive sendt til **TELEGRAM**. Indtast den, og botten vil virke.
+
+![Launch](https://github.com/error1001es/teleghoul/blob/main/screenshots/startup.png)<br>
+
+Hvis du har *tofaktorgodkendelse* aktiveret, vil botten bede om en adgangskode<br>
+
+**Efter opstart vil botten give dig besked. *Efterfølgende opstarter udføres uden nogen installation***<br>
 
 <pre>
-    <kbd>Ctrl</kbd>+<kbd>С</kbd> - Отключение бота
+<kbd>Ctrl</kbd>+<kbd>C</kbd> - Deaktivering af botten
 </pre>
 ___
-## Команды в Телеграме
-`Я гуль` - спам<br>
-`.ghoul-c` - табличка<br>
+## Telegram-kommandoer
+`Jeg er en Ghoul` - spam<br>
+`.ghoul-c` - sign<br>
 
-*Одновременно запускать лучше только в один чат*<br>
+*Det er bedst kun at køre dette i én chat ad gangen*<br>
 
-***Пожалуйста, не тестируйте работу на мне***<br>
+***Test det venligst ikke på mig***<br>
 
 ___
 
-
-## Пожертвовать
-[Мой Киви](https://donate.qiwi.com/payin/4sadly)<br>
-[Сервис донатов](https://donate.stream/4sadly)
+## Donér
+[Min Qiwi](https://donate.qiwi.com/payin/4sadly)<br>
+[Donationstjeneste](https://donate.stream/4sadly)
 https://www.donationalerts.com/r/ponyal
 
 ___
-## Помощь
-При возникновении ошибок проверьте правильность написания/копирования команд<br>
-Попробуйте еще раз и только потом пишите мне в [**ЛС**](https://t.me/ghoul4s) вместе со скриншотом!
+## Hjælp
+Hvis du støder på fejl, skal du kontrollere din stavning/kopiering af kommandoerne<br>
+Prøv igen, og send mig først derefter en besked [**PM**](https://t.me/ghoul4s) med et skærmbillede!
 
 ___
-## Обновление
-*Заходим в папочку с ботом*
+## Opdatering
+*Gå til bot-mappen*
 
-	cd teleghoul
-	
-*Обновляем*	
+cd teleghoul
 
-	git pull
-	
-*Выходим из папки, для удобного последующего запуска*
+*Opdatering*
 
-	cd ../
+git pull
+
+*Luk mappen for nem opstart senere*
+
+cd ../
 
 ___
-## Дополнительные возможности и изменение команд
-Вы можете открыть файл *config.py* командой `nano teleghoul/config.py`<br>
+## Yderligere funktioner og kommandoændringer
+Du kan åbne *config.py*-filen med kommandoen `nano teleghoul/config.py`<br>
 <pre>
-    <kbd>Ctrl</kbd>+<kbd>X</kbd> - Выйти из редактирования
+<kbd>Ctrl</kbd>+<kbd>X</kbd> - Afslut redigering
 </pre>
